@@ -35,6 +35,7 @@ font-family: 'Times New Roman', Times, serif;
     border-color: white;
     size: 75%;
 }
+
 .maintext {
     font-size: 3.5vmin;
     margin-left: 2vmin;
@@ -80,4 +81,25 @@ svg {
     padding-top: 2%;
     text-align: left;
 
+}
+@media (max-width: 600px) {
+    .imgcontainer {
+        align-items: center;
+        justify-content: center;
+        size: 75%;
+        flex-flow: column;
+        
+    }
+    .maintext {
+        font-size: 3.5vmin;
+        text-align:center;
+        display: block;
+        width: 50%;
+    }
+    .socials{
+        margin-top: 29vh;
+        margin-bottom: 5vh;
+        width: 5%;
+        height: 5%;
+    }
 }
